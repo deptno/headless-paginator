@@ -1,15 +1,22 @@
 # headless-paginator
 [![Build Status](https://travis-ci.org/deptno/headless-paginator.svg?branch=master)](https://travis-ci.org/deptno/headless-paginator)
 
+## Install
 
-## api
+```bash
+npm install headless-paginator
+```
+
+## API
+
 * first(): 1;
 * last(total, limit: number): number;
 * next(total, limit, pos: number): number;
 * prev(total, limit, pos: number): number;
 * range(total, limit, pos, range: number): {start: number, end: number};
 
-## argument
+### Arguments
+
 > total
 
 items total count
