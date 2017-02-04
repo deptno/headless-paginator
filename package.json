@@ -1,0 +1,41 @@
+{
+  "name": "headless-paginator",
+  "version": "0.1.0",
+  "description": "pagination engine",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deptno/headless-paginator.git"
+  },
+  "keywords": [
+    "paginator",
+    "pagination",
+    "headless-paginator"
+  ],
+  "author": "deptno@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deptno/headless-paginator/issues"
+  },
+  "homepage": "https://github.com/deptno/headless-paginator#readme",
+  "devDependencies": {
+    "jest": "^18.1.0",
+    "ts-jest": "^18.0.2",
+    "typescript": "^2.1.5"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
