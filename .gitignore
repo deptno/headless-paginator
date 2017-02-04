@@ -2,5 +2,5 @@
 
 .idea
 node_modules
-**/*.js
+lib/**/*.js
 npm-debug.log
