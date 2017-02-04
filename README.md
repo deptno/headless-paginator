@@ -3,7 +3,6 @@
 
 
 ## api
-
 * first(): 1;
 * last(total, limit: number): number;
 * next(total, limit, pos: number): number;
@@ -11,7 +10,6 @@
 * range(total, limit, pos, range: number): {start: number, end: number};
 
 ## argument
-
 > total
 
 items total count
@@ -45,7 +43,6 @@ navigator range
 [6] **[7]** [8] [9]
 
 ---
-
 ```javascript
 range(...)
 // {start: 6, end: 9}
@@ -63,6 +60,5 @@ last(...)
 // 9
 ```
 
-### license
-
+## license
 MIT
