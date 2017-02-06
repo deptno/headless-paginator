@@ -1,6 +1,6 @@
 {
   "name": "headless-paginator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "pagination engine",
   "main": "index.js",
   "scripts": {
