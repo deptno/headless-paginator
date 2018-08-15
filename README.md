@@ -1,5 +1,5 @@
-# headless-paginator
-[![Build Status](https://travis-ci.org/deptno/headless-paginator.svg?branch=master)](https://travis-ci.org/deptno/headless-paginator)
+# headless-paginator [![Build Status](https://travis-ci.org/deptno/headless-paginator.svg?branch=master)](https://travis-ci.org/deptno/headless-paginator)
+[![npm](https://img.shields.io/npm/dt/headless-paginator.svg?style=for-the-badge)](https://www.npmjs.com/package/headless-paginator)
 
 ## Install
 
