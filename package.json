@@ -1,11 +1,12 @@
 {
   "name": "headless-paginator",
-  "version": "1.0.3",
+  "version": "2.0.1",
   "description": "pagination engine",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
-    "test": "jest"
+    "test": "tap"
   },
   "repository": {
     "type": "git",
@@ -23,10 +24,7 @@
   },
   "homepage": "https://github.com/deptno/headless-paginator#readme",
   "devDependencies": {
-    "@types/jest": "^18.1.1",
-    "jest": "^18.1.0",
-    "ts-jest": "^18.0.2",
-    "typescript": "^2.1.5"
+    "typescript": "^3.5.3"
   },
   "jest": {
     "transform": {
@@ -38,5 +36,8 @@
       "tsx",
       "js"
     ]
+  },
+  "dependencies": {
+    "tap": "^14.4.3"
   }
 }

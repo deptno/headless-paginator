@@ -8,12 +8,11 @@ npm install headless-paginator
 ```
 
 ## API
-
-* first(): 1;
-* last(total, limit: number): number;
-* next(total, limit, pos: number): number;
-* prev(total, limit, pos: number): number;
-* range(total, limit, pos, range: number): {start: number, end: number};
+* first(): 1
+* last({total: number, limit: number}): number
+* next({total: number, limit: number, pos: number}): number
+* prev({pos: number}): number
+* range({total: number, limit: number, pos: number, range: number}): {start: number, end: number}
 
 ### Arguments
 
